@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Youtube player",
+  "description": "This extension will play the song you enter directly from youtube",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
